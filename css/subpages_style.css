@@ -1,0 +1,45 @@
+body {
+    background-color: #556f40;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adjust the radius as needed */
+}
+
+table {
+   
+   
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+   
+}
+
+th, td {
+    border: 1px solid #090909;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #b6ec89#333;
+    color: #fff;
+}
+
+#div1 {
+    text-align: center;
+}
+
+#div1 table {
+    margin: auto;
+}

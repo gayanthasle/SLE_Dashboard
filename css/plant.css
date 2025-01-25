@@ -1,0 +1,300 @@
+/* start daduruoya css */
+.content{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 350px;
+    z-index: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    h1{
+      background: linear-gradient(to right, #232E3E, #614ad3);
+      background-clip:text;
+      color: transparent;  
+      font-size: 26px;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-family: 'Inter', sans-serif;
+    }
+  }
+  
+  .plant_table {
+  border-spacing: 0px;
+  width: 75vw;
+  box-shadow: 5px 4px 30px rgba(0,0,0,.10);
+  border-radius: 10px;
+  background: #fff;
+  transition: all .5s;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+  
+  
+  td {
+    padding: 20px 15px;
+  }
+  
+  thead {
+    background: linear-gradient(45deg, #232E3E, #614ad3);
+    border-radius: 10px 10px 0 0;
+    
+    tr {
+      border-radius: 10px 10px 0 0;
+    }
+    
+    td {
+      color: #fff;
+      font-size: 20px;
+    }
+    
+    td:first-of-type {
+      border-radius: 10px 0 0 0;
+    }
+    
+    td:last-of-type {
+      border-radius: 0 10px 0 0;
+    }
+  }
+  
+  tbody {
+    td {
+      border: 1px solid #f0f0f0;
+    }
+    
+    tr:hover {
+      background: rgba(123, 153, 218, .1);
+    }
+  
+    a{
+      margin-right: 10px;
+    }
+  }
+  tfoot {
+    td a{
+  
+      padding: 5px;
+      color: #9EADC0;
+    }
+  }
+  
+  }
+  
+  /* CSS */
+  .btn {
+  background-color: white;
+  box-shadow: 2px 2px 5px #b4c5de;
+  border: 1px solid white;
+  height: 25px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: #232E3E;
+  }
+  
+  .btn:hover{
+  height: 28px;
+  background-color:#b4c5de ;
+  }
+     
+  
+  .blurred {
+  filter: blur(5px);
+  }
+  
+  .blurred:not(.blurred) {
+  filter: blur(0);
+  }
+  
+  .curve_chart {
+  margin-top: 50px;
+  width: 80%;  
+  height: 500px;
+  } 
+  .popup_form {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  form {
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid #232E3E;
+  }
+  h2 {
+    text-align: center;
+    color: #232E3E;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  input[type="text"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="date"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="file"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="number"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="time"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="password"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom-width: 5px;
+  }
+  input[type="submit"] {
+    height: 25px;
+    width: 50%;
+    background-color: #b4c5de;
+    border: 1px solid #232E3E;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    outline: 1px solid#325815;
+  }
+  select {
+    margin-bottom: 20px;
+    width: 85%;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #232E3E;
+    color: #757575;
+    cursor: pointer;
+    border-bottom-width: 5px;
+  }
+  }
+  
+  
+  @media (max-width: 1024px) {
+  
+  .content{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .plant_table{
+    width: 100%;
+  }
+  .curve_chart {
+    width: 100%;
+    height: 60vh; /* Adjust the height as needed */
+  }
+  
+  }
+  @media (max-width: 768px) {
+  
+  
+  }
+  
+  @media (max-width: 425px) {
+  
+  }
+  
+  
+  /* item status start */
+  .card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+  
+  .form-container {
+  padding-top: 25px;
+  padding-bottom: 0;
+  background-color: white;
+  width: 200px;
+  height: 75px;
+  margin: 30px 20px 20px 0;
+  text-align: center;
+  border: 2px solid #232E3E;
+  border-radius: 20px;
+  flex: 1 1 calc(20% - 20px);
+  
+  input[type="text"] {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #232E3E;
+    width: calc(80% - 10px);
+  }
+  input:focus{
+    outline: none;
+  }
+  a{
+    margin: auto;
+    color: #232E3E;
+  }
+  }
+
+  .row {
+		display: flex;
+	}
+
+	.cell {
+		padding: 0px 35px;
+	}
+
+  .sd-chart {
+    --grid-line-color :#1c29412e !important;
+    --bar-color:#5946C0 !important;
+  }
+
+  /* item status end */
+  
+  /* End daduruoya css */
