@@ -133,6 +133,10 @@ nav a:hover {
     
 }
 
+.menu ul::-webkit-scrollbar {
+  display: none;
+}
+
 /* template css end */
 
 
